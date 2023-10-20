@@ -1,6 +1,6 @@
 
 
-function StudyPlan() {
+const StudyPlan =()=> {
   return (
     <>
     <h2>Title</h2>
