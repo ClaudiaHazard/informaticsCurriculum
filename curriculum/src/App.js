@@ -6,7 +6,6 @@ import Navbar from './Navbar';
 function App() {
   return (
     <>
-    HELLO
       <Navbar />
       <Routes>
         <Route path="/" element={<StudyPlan />} />
