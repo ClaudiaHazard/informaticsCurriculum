@@ -20,22 +20,9 @@ const data = dataCurriculum();
     <h2 className={styles.h2} >Curriculum Ingenieria civil Informatica UTFSM</h2>
     <Card className={styles.card} >
       <ListGroup as="ul" >
-        <ListGroup.Item  onClick={handleClick} style={{backgroundColor:"#00838F", color:"white"}} as="li" >
-          <div className={styles.sameline}>
-          <div>Matemáticas, Fisicas, Química</div>
-          <div className={styles.listicon} >{ open ? <ChevronCompactDown /> : <ChevronCompactUp /> }</div>
-          </div>
-        {open ?
-          <ListGroup className={styles.sublist}>
-            <ListGroup.Item> Matemáticas I </ListGroup.Item>
-            <ListGroup.Item> Matemáticas II </ListGroup.Item>
-            <ListGroup.Item> Matemáticas III </ListGroup.Item>
-          </ListGroup>
-        : <></> }
-        </ListGroup.Item>
-        <ListGroup.Item>Industrial Comercial</ListGroup.Item>
-        <ListGroup.Item>Humanistas, Educacion Física y Libres</ListGroup.Item>
+        <div>
         <DropList className={styles.droplist} data={data} />
+        </div>
       </ListGroup>
     </Card>
     </>

@@ -23,7 +23,7 @@ const Root = ({ branchName, backgroundColor, color, children }, idx) => {
         <ListGroup.Item  onClick={handleClick} style={{ backgroundColor:backgroundColor, color:color }} key={`branchName-${idx}`} as="li" >
             <div className={styles.sameline}>
             <div>{ branchName }</div>
-            <div className={styles.listicon} >{ open ? <ChevronCompactDown /> : <ChevronCompactUp /> }</div>
+            <div>{ open ? <ChevronCompactDown /> : <ChevronCompactUp /> }</div>
             </div>
             {open ? <ListGroup className={styles.sublist}> {childList} </ListGroup> : <></> }
         </ListGroup.Item>
