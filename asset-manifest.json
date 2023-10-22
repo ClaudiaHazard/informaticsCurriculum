@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/informaticsCurriculum/static/css/main.073c9b0a.css",
-    "main.js": "/informaticsCurriculum/static/js/main.b53741d4.js",
-    "static/js/787.595c645d.chunk.js": "/informaticsCurriculum/static/js/787.595c645d.chunk.js",
-    "index.html": "/informaticsCurriculum/index.html",
-    "main.073c9b0a.css.map": "/informaticsCurriculum/static/css/main.073c9b0a.css.map",
-    "main.b53741d4.js.map": "/informaticsCurriculum/static/js/main.b53741d4.js.map",
-    "787.595c645d.chunk.js.map": "/informaticsCurriculum/static/js/787.595c645d.chunk.js.map"
+    "main.css": "/static/css/main.2dceed51.css",
+    "main.js": "/static/js/main.a2af8b2a.js",
+    "static/js/787.595c645d.chunk.js": "/static/js/787.595c645d.chunk.js",
+    "index.html": "/index.html",
+    "main.2dceed51.css.map": "/static/css/main.2dceed51.css.map",
+    "main.a2af8b2a.js.map": "/static/js/main.a2af8b2a.js.map",
+    "787.595c645d.chunk.js.map": "/static/js/787.595c645d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.b53741d4.js"
+    "static/css/main.2dceed51.css",
+    "static/js/main.a2af8b2a.js"
   ]
 }
