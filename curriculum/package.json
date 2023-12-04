@@ -1,7 +1,7 @@
 {
-  "name": "curriculum",
+  "name": "informatics-curriculum",
   "version": "0.1.0",
-  "homepage": "https://claudiahazard.github.io",
+  "homepage": "https://claudiahazard.github.io/informaticsCurriculum",
   "proxy": "http://localhost:5000",
   "private": true,
   "dependencies": {
